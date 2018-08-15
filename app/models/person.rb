@@ -4,10 +4,12 @@ class Person < ApplicationRecord
   include Swapi
   serialize :films, Array
 
+  CACHE_EXPIRATION = 1.hours
+
   after_find do |person|
     # The typical workflow is through find() thus the liklihood
     # of someone calling .all on this model is negligible
-    Rails.cache.fetch(cache_key, expires_in: 12.hours) do
+    Rails.cache.fetch(cache_key, expires_in: CACHE_EXPIRATION) do
       p = Person.send(:swapi_find, person.id, person.etag)
       person.update(p) if p.present?
       person
