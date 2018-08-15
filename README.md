@@ -37,7 +37,7 @@ mysql.server start
 bundle exec rails db:create db:migrate RAILS_ENV=<development, test>
 ```
 
-8. Enable caching (See more in the [caching](#Caching))
+8. Enable caching (See more in the [caching](#Caching) section)
 ```sh
 rails dev:cache
 ```
@@ -58,6 +58,7 @@ By default Rails **does not cache in development mode**. I recommend that you tu
 ## Linting
 
 **Ruby**
+
 By default I have configuration in the `.rubocop.yml` file. You can run the linter by the following command
 ```sh
 bundle exec rubocop
@@ -80,15 +81,19 @@ bundle exec rails test
 # Future Enhancements
 
 **Creating associations between the models**
+
 I initially set out actually creating ActiveRecord associations for these models as they are related in the API. As I was writing the client for the service I realized that it would take a significant more amount of time to do so.
 
 **More elegant API synchronization**
+
 There's a model concern which is called on lookups for any queries. If I was tasked to implement bulk methods like destroy_all and save_all, then I would not use the `after_find` nor the `all` method defined in the concern due to the number of HTTP requests.
 
 In addition if there's a record that gets created in the service it won't get deleted from the application. A simple way to add this would be to modify the `synchronize_records` method to delete the ids that are in the application database but not in the response from SWAPI.
 
 **Decouple model names with API model names**
+
 There currently is exists a tight coupling between what the endpoints SWAPI has defined and what models I have defined in this project. Due to the dynamic calculation of url based on the class name - the model that is going to consume it must be named the same as the model on SWAPI. There could be future work to decouple it however I think this is actually a benefit because our models will be more aligned with the service.
 
 **Support no-script users**
+
 During the initial phone screen it was mentioned that there was hesitation with using javascript due to people who have it disabled by default. This application should be able to fairly easy to adapt. The only thing needed would be to generate JSON links in Rails as opposed to in javascript.
