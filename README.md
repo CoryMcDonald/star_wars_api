@@ -1,4 +1,6 @@
-# README
+# Star Wars API
+
+[Compare the changes between the initial project setup and the code that I wrote. :alien:](https://github.com/CoryMcDonald/star_wars_api/compare/to-compare...master)
 
 ## Setup
 
@@ -49,7 +51,7 @@ bundle exec rails s
 
 
 ## Caching
-By default, I check to see if the database entry has gotten out of sync by utilizing a low-level cache which expires once every hour. The service call utilizes the etag to determine if the database will need to update. Unfortunately due to a defect in the [deployed SWAPI instance](https://github.com/phalt/swapi/issues/92)  the application will not return 304’s successfully when an `If-Match-None` header is passed to it.
+By default, I check to see if the database entry has gotten out of sync by utilizing a low-level cache which expires once every hour. The service call utilizes the etag to determine if the database will need to update. Unfortunately due to a defect in the [deployed SWAPI instance](https://github.com/phalt/swapi/issues/92) the application will not return 304’s successfully when an `If-Match-None` header is passed to it. :sob:
 
 By default Rails **does not cache in development mode**. I recommend that you turn on caching as every request will make a call to the Star Wars API. You can enable the cache by running the following command.
 
@@ -65,7 +67,7 @@ bundle exec rubocop
 ```
 **Javascript**
 
-The linter is configured vs eslint and is following the standard airbnb config.
+The linter is configured via eslint and is following the standard airbnb config.
 
 ```sh
 yarn lint
@@ -84,7 +86,7 @@ bundle exec rails test
 
 I initially set out actually creating ActiveRecord associations for these models as they are related in the API. As I was writing the client for the service I realized that it would take a significant more amount of time to do so.
 
-**More elegant API synchronization**
+**More elegant API synchronization :repeat:**
 
 There's a model concern which is called on lookups for any queries. If I was tasked to implement bulk methods like destroy_all and save_all, then I would not use the `after_find` nor the `all` method defined in the concern due to the number of HTTP requests.
 
