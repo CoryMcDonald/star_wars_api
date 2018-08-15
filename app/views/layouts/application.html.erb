@@ -5,11 +5,28 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+
+    <%= stylesheet_pack_tag 'code' %>
+    <%= javascript_pack_tag 'application' %>
+    <%= stylesheet_pack_tag 'application' %>
+
   </head>
 
   <body>
+    <div class="container">
+      <div class="header">
+        <h1><a href="/"><%= t('title') %></a></h1>
+        <p><%= t('description') %></p>
+      </div>
+      <iframe src="https://giphy.com/embed/eKJBJmSOd6uM8" width="480" height="170" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+    </div>
+
+    <div class="fa-2x" id="loading" style="display: none;" >
+      <i class="fas fa-circle-notch fa-spin" ></i>
+    </div>
+
     <%= yield %>
   </body>
 </html>

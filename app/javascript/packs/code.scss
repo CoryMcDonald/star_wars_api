@@ -1,0 +1,16 @@
+pre {
+  outline: 1px solid #ccc; padding: 5px; margin: 5px;
+  background: #fdf6e3;
+  overflow-x: auto;
+}
+
+pre a:active {
+ color: #859900;
+}
+
+.string { color: #859900; }
+.number { color: #dc322f; }
+.boolean { color: #268bd2; }
+.null { color: #dc322f; }
+.key { color: #586e75; }
+

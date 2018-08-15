@@ -30,4 +30,5 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  title: "Star Wars API"
+  description: "This gif is here to show that the page isn't reloading."
