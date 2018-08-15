@@ -1,0 +1,15 @@
+AllCops:
+  Exclude:
+    - 'bin/*'
+    - 'node_modules/**/*'
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'test/test_helper.rb'
+Metrics/LineLength:
+  Max: 120
+Metrics/MethodLength:
+  Max: 15
+Documentation:
+  Enabled: false
+Metrics/AbcSize:
+  Max: 20

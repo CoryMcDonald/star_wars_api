@@ -2,9 +2,17 @@
   "name": "Brave",
   "private": true,
   "dependencies": {
-    "@rails/webpacker": "3.5"
+    "@rails/webpacker": "3.5",
+    "resolve-url-loader": "^2.3.0"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.2.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
     "webpack-dev-server": "2.11.2"
+  },
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint app/javascript/**/*.js --ignore-pattern node_modules/"
   }
 }

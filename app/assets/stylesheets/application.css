@@ -13,3 +13,20 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+h1 a {
+  color: black;
+}
+
+.container {
+  display: flex;
+  height: 11em;
+}
+
+.giphy-embed {
+  position: absolute;
+  right: 0.75em;
+}

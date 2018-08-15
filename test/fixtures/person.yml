@@ -1,0 +1,2263 @@
+---
+Luke Skywalker:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2018-08-14 23:38:52.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  id: 1
+  etag: W/"145c70f4eca80b4752674d42e5bf1bcf"
+  name: Luke Skywalker
+  height: '172'
+  mass: '77'
+  hair_color: blond
+  skin_color: fair
+  eye_color: blue
+  birth_year: 19BBY
+  gender: male
+  homeworld: https://swapi.co/api/planets/1/
+  films:
+  - https://swapi.co/api/films/2/
+  - https://swapi.co/api/films/6/
+  - https://swapi.co/api/films/3/
+  - https://swapi.co/api/films/1/
+  - https://swapi.co/api/films/7/
+  created: '2014-12-09T13:50:51.644000Z'
+  edited: '2014-12-20T21:17:56.891000Z'
+  url: https://swapi.co/api/people/1/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *3
+C-3PO:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2018-08-14 23:38:52.000000000 Z
+    zone: *2
+    time: *4
+  id: 2
+  etag: W/"3a58f420395ff0deed943e331d3bf74b"
+  name: C-3PO
+  height: '167'
+  mass: '75'
+  hair_color: n/a
+  skin_color: gold
+  eye_color: yellow
+  birth_year: 112BBY
+  gender: n/a
+  homeworld: https://swapi.co/api/planets/1/
+  films:
+  - https://swapi.co/api/films/2/
+  - https://swapi.co/api/films/5/
+  - https://swapi.co/api/films/4/
+  - https://swapi.co/api/films/6/
+  - https://swapi.co/api/films/3/
+  - https://swapi.co/api/films/1/
+  created: '2014-12-10T15:10:51.357000Z'
+  edited: '2014-12-20T21:17:50.309000Z'
+  url: https://swapi.co/api/people/2/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *5
+R2-D2:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &6 2018-08-14 23:38:52.000000000 Z
+    zone: *2
+    time: *6
+  id: 3
+  etag: W/"12ab654eadb375cb1bf3d5be6f062389"
+  name: R2-D2
+  height: '96'
+  mass: '32'
+  hair_color: n/a
+  skin_color: white, blue
+  eye_color: red
+  birth_year: 33BBY
+  gender: n/a
+  homeworld: https://swapi.co/api/planets/8/
+  films:
+  - https://swapi.co/api/films/2/
+  - https://swapi.co/api/films/5/
+  - https://swapi.co/api/films/4/
+  - https://swapi.co/api/films/6/
+  - https://swapi.co/api/films/3/
+  - https://swapi.co/api/films/1/
+  - https://swapi.co/api/films/7/
+  created: '2014-12-10T15:11:50.376000Z'
+  edited: '2014-12-20T21:17:50.311000Z'
+  url: https://swapi.co/api/people/3/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &7 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *7
+Darth Vader:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &8 2018-08-14 23:38:53.000000000 Z
+    zone: *2
+    time: *8
+  id: 4
+  etag: W/"8bfe31db65334ba71a5294d01382d3fe"
+  name: Darth Vader
+  height: '202'
+  mass: '136'
+  hair_color: none
+  skin_color: white
+  eye_color: yellow
+  birth_year: 41.9BBY
+  gender: male
+  homeworld: https://swapi.co/api/planets/1/
+  films:
+  - https://swapi.co/api/films/2/
+  - https://swapi.co/api/films/6/
+  - https://swapi.co/api/films/3/
+  - https://swapi.co/api/films/1/
+  created: '2014-12-10T15:18:20.704000Z'
+  edited: '2014-12-20T21:17:50.313000Z'
+  url: https://swapi.co/api/people/4/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &9 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *9
+Leia Organa:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &10 2018-08-14 23:38:53.000000000 Z
+    zone: *2
+    time: *10
+  id: 5
+  etag: W/"9541de5a497d43cd05a0d13d515c12ec"
+  name: Leia Organa
+  height: '150'
+  mass: '49'
+  hair_color: brown
+  skin_color: light
+  eye_color: brown
+  birth_year: 19BBY
+  gender: female
+  homeworld: https://swapi.co/api/planets/2/
+  films:
+  - https://swapi.co/api/films/2/
+  - https://swapi.co/api/films/6/
+  - https://swapi.co/api/films/3/
+  - https://swapi.co/api/films/1/
+  - https://swapi.co/api/films/7/
+  created: '2014-12-10T15:20:09.791000Z'
+  edited: '2014-12-20T21:17:50.315000Z'
+  url: https://swapi.co/api/people/5/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &11 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *11
+Owen Lars:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &12 2018-08-14 23:38:54.000000000 Z
+    zone: *2
+    time: *12
+  id: 6
+  etag: W/"f04efbcf4eec6538821956db3d14cd99"
+  name: Owen Lars
+  height: '178'
+  mass: '120'
+  hair_color: brown, grey
+  skin_color: light
+  eye_color: blue
+  birth_year: 52BBY
+  gender: male
+  homeworld: https://swapi.co/api/planets/1/
+  films:
+  - https://swapi.co/api/films/5/
+  - https://swapi.co/api/films/6/
+  - https://swapi.co/api/films/1/
+  created: '2014-12-10T15:52:14.024000Z'
+  edited: '2014-12-20T21:17:50.317000Z'
+  url: https://swapi.co/api/people/6/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &13 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *13
+Beru Whitesun lars:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &14 2018-08-14 23:38:54.000000000 Z
+    zone: *2
+    time: *14
+  id: 7
+  etag: W/"16bdc0c7e9e33057e40645d60d15ad5c"
+  name: Beru Whitesun lars
+  height: '165'
+  mass: '75'
+  hair_color: brown
+  skin_color: light
+  eye_color: blue
+  birth_year: 47BBY
+  gender: female
+  homeworld: https://swapi.co/api/planets/1/
+  films:
+  - https://swapi.co/api/films/5/
+  - https://swapi.co/api/films/6/
+  - https://swapi.co/api/films/1/
+  created: '2014-12-10T15:53:41.121000Z'
+  edited: '2014-12-20T21:17:50.319000Z'
+  url: https://swapi.co/api/people/7/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &15 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *15
+R5-D4:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &16 2018-08-14 23:38:54.000000000 Z
+    zone: *2
+    time: *16
+  id: 8
+  etag: W/"da0bf4dd1a6f677f26ce731cc59e068d"
+  name: R5-D4
+  height: '97'
+  mass: '32'
+  hair_color: n/a
+  skin_color: white, red
+  eye_color: red
+  birth_year: unknown
+  gender: n/a
+  homeworld: https://swapi.co/api/planets/1/
+  films:
+  - https://swapi.co/api/films/1/
+  created: '2014-12-10T15:57:50.959000Z'
+  edited: '2014-12-20T21:17:50.321000Z'
+  url: https://swapi.co/api/people/8/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &17 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *17
+Biggs Darklighter:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &18 2018-08-14 23:38:55.000000000 Z
+    zone: *2
+    time: *18
+  id: 9
+  etag: W/"8e269e3d041a747f3285f979c736d6ca"
+  name: Biggs Darklighter
+  height: '183'
+  mass: '84'
+  hair_color: black
+  skin_color: light
+  eye_color: brown
+  birth_year: 24BBY
+  gender: male
+  homeworld: https://swapi.co/api/planets/1/
+  films:
+  - https://swapi.co/api/films/1/
+  created: '2014-12-10T15:59:50.509000Z'
+  edited: '2014-12-20T21:17:50.323000Z'
+  url: https://swapi.co/api/people/9/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &19 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *19
+Obi-Wan Kenobi:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &20 2018-08-14 23:38:55.000000000 Z
+    zone: *2
+    time: *20
+  id: 10
+  etag: W/"789cdc0a8ff62424e3189d43fd78ebfe"
+  name: Obi-Wan Kenobi
+  height: '182'
+  mass: '77'
+  hair_color: auburn, white
+  skin_color: fair
+  eye_color: blue-gray
+  birth_year: 57BBY
+  gender: male
+  homeworld: https://swapi.co/api/planets/20/
+  films:
+  - https://swapi.co/api/films/2/
+  - https://swapi.co/api/films/5/
+  - https://swapi.co/api/films/4/
+  - https://swapi.co/api/films/6/
+  - https://swapi.co/api/films/3/
+  - https://swapi.co/api/films/1/
+  created: '2014-12-10T16:16:29.192000Z'
+  edited: '2014-12-20T21:17:50.325000Z'
+  url: https://swapi.co/api/people/10/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &21 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *21
+Anakin Skywalker:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &22 2018-08-14 23:38:56.000000000 Z
+    zone: *2
+    time: *22
+  id: 11
+  etag: W/"1533461f73c77c0311bd19cee2cedfc3"
+  name: Anakin Skywalker
+  height: '188'
+  mass: '84'
+  hair_color: blond
+  skin_color: fair
+  eye_color: blue
+  birth_year: 41.9BBY
+  gender: male
+  homeworld: https://swapi.co/api/planets/1/
+  films:
+  - https://swapi.co/api/films/5/
+  - https://swapi.co/api/films/4/
+  - https://swapi.co/api/films/6/
+  created: '2014-12-10T16:20:44.310000Z'
+  edited: '2014-12-20T21:17:50.327000Z'
+  url: https://swapi.co/api/people/11/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &23 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *23
+Wilhuff Tarkin:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &24 2018-08-14 23:38:56.000000000 Z
+    zone: *2
+    time: *24
+  id: 12
+  etag: W/"88ae298b7928222bd3c378f6b271b799"
+  name: Wilhuff Tarkin
+  height: '180'
+  mass: unknown
+  hair_color: auburn, grey
+  skin_color: fair
+  eye_color: blue
+  birth_year: 64BBY
+  gender: male
+  homeworld: https://swapi.co/api/planets/21/
+  films:
+  - https://swapi.co/api/films/6/
+  - https://swapi.co/api/films/1/
+  created: '2014-12-10T16:26:56.138000Z'
+  edited: '2014-12-20T21:17:50.330000Z'
+  url: https://swapi.co/api/people/12/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &25 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *25
+Chewbacca:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &26 2018-08-14 23:38:57.000000000 Z
+    zone: *2
+    time: *26
+  id: 13
+  etag: W/"9931734d0c9bd3b02bbfb105134e1d31"
+  name: Chewbacca
+  height: '228'
+  mass: '112'
+  hair_color: brown
+  skin_color: unknown
+  eye_color: blue
+  birth_year: 200BBY
+  gender: male
+  homeworld: https://swapi.co/api/planets/14/
+  films:
+  - https://swapi.co/api/films/2/
+  - https://swapi.co/api/films/6/
+  - https://swapi.co/api/films/3/
+  - https://swapi.co/api/films/1/
+  - https://swapi.co/api/films/7/
+  created: '2014-12-10T16:42:45.066000Z'
+  edited: '2014-12-20T21:17:50.332000Z'
+  url: https://swapi.co/api/people/13/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &27 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *27
+Han Solo:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &28 2018-08-14 23:38:57.000000000 Z
+    zone: *2
+    time: *28
+  id: 14
+  etag: W/"13c9756082a4db7d961b0abbd4bb4b73"
+  name: Han Solo
+  height: '180'
+  mass: '80'
+  hair_color: brown
+  skin_color: fair
+  eye_color: brown
+  birth_year: 29BBY
+  gender: male
+  homeworld: https://swapi.co/api/planets/22/
+  films:
+  - https://swapi.co/api/films/2/
+  - https://swapi.co/api/films/3/
+  - https://swapi.co/api/films/1/
+  - https://swapi.co/api/films/7/
+  created: '2014-12-10T16:49:14.582000Z'
+  edited: '2014-12-20T21:17:50.334000Z'
+  url: https://swapi.co/api/people/14/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &29 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *29
+Greedo:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &30 2018-08-14 23:38:57.000000000 Z
+    zone: *2
+    time: *30
+  id: 15
+  etag: W/"42ab0ee4a4e19ed74f52800bf7d70ebc"
+  name: Greedo
+  height: '173'
+  mass: '74'
+  hair_color: n/a
+  skin_color: green
+  eye_color: black
+  birth_year: 44BBY
+  gender: male
+  homeworld: https://swapi.co/api/planets/23/
+  films:
+  - https://swapi.co/api/films/1/
+  created: '2014-12-10T17:03:30.334000Z'
+  edited: '2014-12-20T21:17:50.336000Z'
+  url: https://swapi.co/api/people/15/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &31 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *31
+Jabba Desilijic Tiure:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &32 2018-08-14 23:38:58.000000000 Z
+    zone: *2
+    time: *32
+  id: 16
+  etag: W/"8e2da5c08ff58e5e1645b0ac4409ca46"
+  name: Jabba Desilijic Tiure
+  height: '175'
+  mass: '1,358'
+  hair_color: n/a
+  skin_color: green-tan, brown
+  eye_color: orange
+  birth_year: 600BBY
+  gender: hermaphrodite
+  homeworld: https://swapi.co/api/planets/24/
+  films:
+  - https://swapi.co/api/films/4/
+  - https://swapi.co/api/films/3/
+  - https://swapi.co/api/films/1/
+  created: '2014-12-10T17:11:31.638000Z'
+  edited: '2014-12-20T21:17:50.338000Z'
+  url: https://swapi.co/api/people/16/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &33 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *33
+Wedge Antilles:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &34 2018-08-14 23:38:59.000000000 Z
+    zone: *2
+    time: *34
+  id: 18
+  etag: W/"0df22c2c2f68cc0b388741507abb197b"
+  name: Wedge Antilles
+  height: '170'
+  mass: '77'
+  hair_color: brown
+  skin_color: fair
+  eye_color: hazel
+  birth_year: 21BBY
+  gender: male
+  homeworld: https://swapi.co/api/planets/22/
+  films:
+  - https://swapi.co/api/films/2/
+  - https://swapi.co/api/films/3/
+  - https://swapi.co/api/films/1/
+  created: '2014-12-12T11:08:06.469000Z'
+  edited: '2014-12-20T21:17:50.341000Z'
+  url: https://swapi.co/api/people/18/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &35 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *35
+Jek Tono Porkins:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &36 2018-08-14 23:39:00.000000000 Z
+    zone: *2
+    time: *36
+  id: 19
+  etag: W/"43889d24a784a2e33b4ede9578d90bb9"
+  name: Jek Tono Porkins
+  height: '180'
+  mass: '110'
+  hair_color: brown
+  skin_color: fair
+  eye_color: blue
+  birth_year: unknown
+  gender: male
+  homeworld: https://swapi.co/api/planets/26/
+  films:
+  - https://swapi.co/api/films/1/
+  created: '2014-12-12T11:16:56.569000Z'
+  edited: '2014-12-20T21:17:50.343000Z'
+  url: https://swapi.co/api/people/19/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &37 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *37
+Yoda:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &38 2018-08-14 23:39:00.000000000 Z
+    zone: *2
+    time: *38
+  id: 20
+  etag: W/"2146c78cdf95e047e6c6a4d759bfc9de"
+  name: Yoda
+  height: '66'
+  mass: '17'
+  hair_color: white
+  skin_color: green
+  eye_color: brown
+  birth_year: 896BBY
+  gender: male
+  homeworld: https://swapi.co/api/planets/28/
+  films:
+  - https://swapi.co/api/films/2/
+  - https://swapi.co/api/films/5/
+  - https://swapi.co/api/films/4/
+  - https://swapi.co/api/films/6/
+  - https://swapi.co/api/films/3/
+  created: '2014-12-15T12:26:01.042000Z'
+  edited: '2014-12-20T21:17:50.345000Z'
+  url: https://swapi.co/api/people/20/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &39 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *39
+Palpatine:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &40 2018-08-14 23:39:01.000000000 Z
+    zone: *2
+    time: *40
+  id: 21
+  etag: W/"b67bef4f825ada28edfeacbce5bd2cec"
+  name: Palpatine
+  height: '170'
+  mass: '75'
+  hair_color: grey
+  skin_color: pale
+  eye_color: yellow
+  birth_year: 82BBY
+  gender: male
+  homeworld: https://swapi.co/api/planets/8/
+  films:
+  - https://swapi.co/api/films/2/
+  - https://swapi.co/api/films/5/
+  - https://swapi.co/api/films/4/
+  - https://swapi.co/api/films/6/
+  - https://swapi.co/api/films/3/
+  created: '2014-12-15T12:48:05.971000Z'
+  edited: '2014-12-20T21:17:50.347000Z'
+  url: https://swapi.co/api/people/21/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &41 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *41
+Boba Fett:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &42 2018-08-14 23:39:01.000000000 Z
+    zone: *2
+    time: *42
+  id: 22
+  etag: W/"e170c27e838e7112959ed9b76cef824a"
+  name: Boba Fett
+  height: '183'
+  mass: '78.2'
+  hair_color: black
+  skin_color: fair
+  eye_color: brown
+  birth_year: 31.5BBY
+  gender: male
+  homeworld: https://swapi.co/api/planets/10/
+  films:
+  - https://swapi.co/api/films/2/
+  - https://swapi.co/api/films/5/
+  - https://swapi.co/api/films/3/
+  created: '2014-12-15T12:49:32.457000Z'
+  edited: '2014-12-20T21:17:50.349000Z'
+  url: https://swapi.co/api/people/22/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &43 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *43
+IG-88:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &44 2018-08-14 23:39:02.000000000 Z
+    zone: *2
+    time: *44
+  id: 23
+  etag: W/"08cd3b33c74bcc31ab79ab234cc1b6eb"
+  name: IG-88
+  height: '200'
+  mass: '140'
+  hair_color: none
+  skin_color: metal
+  eye_color: red
+  birth_year: 15BBY
+  gender: none
+  homeworld: https://swapi.co/api/planets/28/
+  films:
+  - https://swapi.co/api/films/2/
+  created: '2014-12-15T12:51:10.076000Z'
+  edited: '2014-12-20T21:17:50.351000Z'
+  url: https://swapi.co/api/people/23/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &45 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *45
+Bossk:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &46 2018-08-14 23:39:02.000000000 Z
+    zone: *2
+    time: *46
+  id: 24
+  etag: W/"cc717ee4930e9ce5a11d80a1f8e1072c"
+  name: Bossk
+  height: '190'
+  mass: '113'
+  hair_color: none
+  skin_color: green
+  eye_color: red
+  birth_year: 53BBY
+  gender: male
+  homeworld: https://swapi.co/api/planets/29/
+  films:
+  - https://swapi.co/api/films/2/
+  created: '2014-12-15T12:53:49.297000Z'
+  edited: '2014-12-20T21:17:50.355000Z'
+  url: https://swapi.co/api/people/24/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &47 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *47
+Lando Calrissian:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &48 2018-08-14 23:39:03.000000000 Z
+    zone: *2
+    time: *48
+  id: 25
+  etag: W/"7ca6a17e6b4df9a33898920235db1888"
+  name: Lando Calrissian
+  height: '177'
+  mass: '79'
+  hair_color: black
+  skin_color: dark
+  eye_color: brown
+  birth_year: 31BBY
+  gender: male
+  homeworld: https://swapi.co/api/planets/30/
+  films:
+  - https://swapi.co/api/films/2/
+  - https://swapi.co/api/films/3/
+  created: '2014-12-15T12:56:32.683000Z'
+  edited: '2014-12-20T21:17:50.357000Z'
+  url: https://swapi.co/api/people/25/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &49 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *49
+Lobot:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &50 2018-08-14 23:39:03.000000000 Z
+    zone: *2
+    time: *50
+  id: 26
+  etag: W/"2f4caf90b21cb88232a1e9733803a84c"
+  name: Lobot
+  height: '175'
+  mass: '79'
+  hair_color: none
+  skin_color: light
+  eye_color: blue
+  birth_year: 37BBY
+  gender: male
+  homeworld: https://swapi.co/api/planets/6/
+  films:
+  - https://swapi.co/api/films/2/
+  created: '2014-12-15T13:01:57.178000Z'
+  edited: '2014-12-20T21:17:50.359000Z'
+  url: https://swapi.co/api/people/26/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &51 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *51
+Ackbar:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &52 2018-08-14 23:39:03.000000000 Z
+    zone: *2
+    time: *52
+  id: 27
+  etag: W/"043b4048fa10db7326124a722a4c1a8f"
+  name: Ackbar
+  height: '180'
+  mass: '83'
+  hair_color: none
+  skin_color: brown mottle
+  eye_color: orange
+  birth_year: 41BBY
+  gender: male
+  homeworld: https://swapi.co/api/planets/31/
+  films:
+  - https://swapi.co/api/films/3/
+  - https://swapi.co/api/films/7/
+  created: '2014-12-18T11:07:50.584000Z'
+  edited: '2014-12-20T21:17:50.362000Z'
+  url: https://swapi.co/api/people/27/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &53 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *53
+Mon Mothma:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &54 2018-08-14 23:39:04.000000000 Z
+    zone: *2
+    time: *54
+  id: 28
+  etag: W/"7cf628743e25664133fd5634ba79d022"
+  name: Mon Mothma
+  height: '150'
+  mass: unknown
+  hair_color: auburn
+  skin_color: fair
+  eye_color: blue
+  birth_year: 48BBY
+  gender: female
+  homeworld: https://swapi.co/api/planets/32/
+  films:
+  - https://swapi.co/api/films/3/
+  created: '2014-12-18T11:12:38.895000Z'
+  edited: '2014-12-20T21:17:50.364000Z'
+  url: https://swapi.co/api/people/28/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &55 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *55
+Arvel Crynyd:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &56 2018-08-14 23:39:04.000000000 Z
+    zone: *2
+    time: *56
+  id: 29
+  etag: W/"2a08dbd715facc57ef5d15f2799889c9"
+  name: Arvel Crynyd
+  height: unknown
+  mass: unknown
+  hair_color: brown
+  skin_color: fair
+  eye_color: brown
+  birth_year: unknown
+  gender: male
+  homeworld: https://swapi.co/api/planets/28/
+  films:
+  - https://swapi.co/api/films/3/
+  created: '2014-12-18T11:16:33.020000Z'
+  edited: '2014-12-20T21:17:50.367000Z'
+  url: https://swapi.co/api/people/29/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &57 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *57
+Wicket Systri Warrick:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &58 2018-08-14 23:39:05.000000000 Z
+    zone: *2
+    time: *58
+  id: 30
+  etag: W/"16ffd578813f1df4acdab06aa06ed85a"
+  name: Wicket Systri Warrick
+  height: '88'
+  mass: '20'
+  hair_color: brown
+  skin_color: brown
+  eye_color: brown
+  birth_year: 8BBY
+  gender: male
+  homeworld: https://swapi.co/api/planets/7/
+  films:
+  - https://swapi.co/api/films/3/
+  created: '2014-12-18T11:21:58.954000Z'
+  edited: '2014-12-20T21:17:50.369000Z'
+  url: https://swapi.co/api/people/30/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &59 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *59
+Nien Nunb:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &60 2018-08-14 23:39:05.000000000 Z
+    zone: *2
+    time: *60
+  id: 31
+  etag: W/"a61120a4376ba7ac020c26cdf07cb2f0"
+  name: Nien Nunb
+  height: '160'
+  mass: '68'
+  hair_color: none
+  skin_color: grey
+  eye_color: black
+  birth_year: unknown
+  gender: male
+  homeworld: https://swapi.co/api/planets/33/
+  films:
+  - https://swapi.co/api/films/3/
+  created: '2014-12-18T11:26:18.541000Z'
+  edited: '2014-12-20T21:17:50.371000Z'
+  url: https://swapi.co/api/people/31/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &61 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *61
+Qui-Gon Jinn:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &62 2018-08-14 23:39:05.000000000 Z
+    zone: *2
+    time: *62
+  id: 32
+  etag: W/"0fd6ed56869fcefdd17cc96ec7e679c6"
+  name: Qui-Gon Jinn
+  height: '193'
+  mass: '89'
+  hair_color: brown
+  skin_color: fair
+  eye_color: blue
+  birth_year: 92BBY
+  gender: male
+  homeworld: https://swapi.co/api/planets/28/
+  films:
+  - https://swapi.co/api/films/4/
+  created: '2014-12-19T16:54:53.618000Z'
+  edited: '2014-12-20T21:17:50.375000Z'
+  url: https://swapi.co/api/people/32/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &63 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *63
+Nute Gunray:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &64 2018-08-14 23:39:06.000000000 Z
+    zone: *2
+    time: *64
+  id: 33
+  etag: W/"618cf0f5680b6811c7a0b2de35291cef"
+  name: Nute Gunray
+  height: '191'
+  mass: '90'
+  hair_color: none
+  skin_color: mottled green
+  eye_color: red
+  birth_year: unknown
+  gender: male
+  homeworld: https://swapi.co/api/planets/18/
+  films:
+  - https://swapi.co/api/films/5/
+  - https://swapi.co/api/films/4/
+  - https://swapi.co/api/films/6/
+  created: '2014-12-19T17:05:57.357000Z'
+  edited: '2014-12-20T21:17:50.377000Z'
+  url: https://swapi.co/api/people/33/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &65 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *65
+Finis Valorum:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &66 2018-08-14 23:39:06.000000000 Z
+    zone: *2
+    time: *66
+  id: 34
+  etag: W/"8d5d86e0501165d1a363421d6d825345"
+  name: Finis Valorum
+  height: '170'
+  mass: unknown
+  hair_color: blond
+  skin_color: fair
+  eye_color: blue
+  birth_year: 91BBY
+  gender: male
+  homeworld: https://swapi.co/api/planets/9/
+  films:
+  - https://swapi.co/api/films/4/
+  created: '2014-12-19T17:21:45.915000Z'
+  edited: '2014-12-20T21:17:50.379000Z'
+  url: https://swapi.co/api/people/34/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &67 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *67
+Padmé Amidala:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &68 2018-08-14 23:39:07.000000000 Z
+    zone: *2
+    time: *68
+  id: 35
+  etag: W/"aca76bd003e18c12e98d08488d6f7720"
+  name: Padmé Amidala
+  height: '165'
+  mass: '45'
+  hair_color: brown
+  skin_color: light
+  eye_color: brown
+  birth_year: 46BBY
+  gender: female
+  homeworld: https://swapi.co/api/planets/8/
+  films:
+  - https://swapi.co/api/films/5/
+  - https://swapi.co/api/films/4/
+  - https://swapi.co/api/films/6/
+  created: '2014-12-19T17:28:26.926000Z'
+  edited: '2016-04-20T17:06:31.502555Z'
+  url: https://swapi.co/api/people/35/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &69 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *69
+Jar Jar Binks:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &70 2018-08-14 23:39:07.000000000 Z
+    zone: *2
+    time: *70
+  id: 36
+  etag: W/"1a8559e8cd9685a3cf7cb5f9b72b3a28"
+  name: Jar Jar Binks
+  height: '196'
+  mass: '66'
+  hair_color: none
+  skin_color: orange
+  eye_color: orange
+  birth_year: 52BBY
+  gender: male
+  homeworld: https://swapi.co/api/planets/8/
+  films:
+  - https://swapi.co/api/films/5/
+  - https://swapi.co/api/films/4/
+  created: '2014-12-19T17:29:32.489000Z'
+  edited: '2014-12-20T21:17:50.383000Z'
+  url: https://swapi.co/api/people/36/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &71 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *71
+Roos Tarpals:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &72 2018-08-14 23:39:07.000000000 Z
+    zone: *2
+    time: *72
+  id: 37
+  etag: W/"e6dd405f5980d064a846f4efea65d052"
+  name: Roos Tarpals
+  height: '224'
+  mass: '82'
+  hair_color: none
+  skin_color: grey
+  eye_color: orange
+  birth_year: unknown
+  gender: male
+  homeworld: https://swapi.co/api/planets/8/
+  films:
+  - https://swapi.co/api/films/4/
+  created: '2014-12-19T17:32:56.741000Z'
+  edited: '2014-12-20T21:17:50.385000Z'
+  url: https://swapi.co/api/people/37/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &73 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *73
+Rugor Nass:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &74 2018-08-14 23:39:08.000000000 Z
+    zone: *2
+    time: *74
+  id: 38
+  etag: W/"2c4029ea1be4e420bb7228f39fe49be6"
+  name: Rugor Nass
+  height: '206'
+  mass: unknown
+  hair_color: none
+  skin_color: green
+  eye_color: orange
+  birth_year: unknown
+  gender: male
+  homeworld: https://swapi.co/api/planets/8/
+  films:
+  - https://swapi.co/api/films/4/
+  created: '2014-12-19T17:33:38.909000Z'
+  edited: '2014-12-20T21:17:50.388000Z'
+  url: https://swapi.co/api/people/38/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &75 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *75
+Ric Olié:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &76 2018-08-14 23:39:08.000000000 Z
+    zone: *2
+    time: *76
+  id: 39
+  etag: W/"8412093e0a4b107151f33797e83ff24c"
+  name: Ric Olié
+  height: '183'
+  mass: unknown
+  hair_color: brown
+  skin_color: fair
+  eye_color: blue
+  birth_year: unknown
+  gender: male
+  homeworld: https://swapi.co/api/planets/8/
+  films:
+  - https://swapi.co/api/films/4/
+  created: '2014-12-19T17:45:01.522000Z'
+  edited: '2014-12-20T21:17:50.392000Z'
+  url: https://swapi.co/api/people/39/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &77 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *77
+Watto:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &78 2018-08-14 23:39:08.000000000 Z
+    zone: *2
+    time: *78
+  id: 40
+  etag: W/"7356e795734219d165559db1be454d75"
+  name: Watto
+  height: '137'
+  mass: unknown
+  hair_color: black
+  skin_color: blue, grey
+  eye_color: yellow
+  birth_year: unknown
+  gender: male
+  homeworld: https://swapi.co/api/planets/34/
+  films:
+  - https://swapi.co/api/films/5/
+  - https://swapi.co/api/films/4/
+  created: '2014-12-19T17:48:54.647000Z'
+  edited: '2014-12-20T21:17:50.395000Z'
+  url: https://swapi.co/api/people/40/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &79 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *79
+Sebulba:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &80 2018-08-14 23:39:09.000000000 Z
+    zone: *2
+    time: *80
+  id: 41
+  etag: W/"c542afc8b1540b11d74f3e1ff5198cfb"
+  name: Sebulba
+  height: '112'
+  mass: '40'
+  hair_color: none
+  skin_color: grey, red
+  eye_color: orange
+  birth_year: unknown
+  gender: male
+  homeworld: https://swapi.co/api/planets/35/
+  films:
+  - https://swapi.co/api/films/4/
+  created: '2014-12-19T17:53:02.586000Z'
+  edited: '2014-12-20T21:17:50.397000Z'
+  url: https://swapi.co/api/people/41/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &81 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *81
+Quarsh Panaka:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &82 2018-08-14 23:39:09.000000000 Z
+    zone: *2
+    time: *82
+  id: 42
+  etag: W/"360110335cd23a9f054fc6e33bdf8318"
+  name: Quarsh Panaka
+  height: '183'
+  mass: unknown
+  hair_color: black
+  skin_color: dark
+  eye_color: brown
+  birth_year: 62BBY
+  gender: male
+  homeworld: https://swapi.co/api/planets/8/
+  films:
+  - https://swapi.co/api/films/4/
+  created: '2014-12-19T17:55:43.348000Z'
+  edited: '2014-12-20T21:17:50.399000Z'
+  url: https://swapi.co/api/people/42/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &83 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *83
+Shmi Skywalker:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &84 2018-08-14 23:39:09.000000000 Z
+    zone: *2
+    time: *84
+  id: 43
+  etag: W/"a042f48465342e258a43f56321ccf2d6"
+  name: Shmi Skywalker
+  height: '163'
+  mass: unknown
+  hair_color: black
+  skin_color: fair
+  eye_color: brown
+  birth_year: 72BBY
+  gender: female
+  homeworld: https://swapi.co/api/planets/1/
+  films:
+  - https://swapi.co/api/films/5/
+  - https://swapi.co/api/films/4/
+  created: '2014-12-19T17:57:41.191000Z'
+  edited: '2014-12-20T21:17:50.401000Z'
+  url: https://swapi.co/api/people/43/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &85 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *85
+Darth Maul:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &86 2018-08-14 23:39:10.000000000 Z
+    zone: *2
+    time: *86
+  id: 44
+  etag: W/"6a41a02381a896a856be41d1c626f1d4"
+  name: Darth Maul
+  height: '175'
+  mass: '80'
+  hair_color: none
+  skin_color: red
+  eye_color: yellow
+  birth_year: 54BBY
+  gender: male
+  homeworld: https://swapi.co/api/planets/36/
+  films:
+  - https://swapi.co/api/films/4/
+  created: '2014-12-19T18:00:41.929000Z'
+  edited: '2014-12-20T21:17:50.403000Z'
+  url: https://swapi.co/api/people/44/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &87 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *87
+Bib Fortuna:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &88 2018-08-14 23:39:10.000000000 Z
+    zone: *2
+    time: *88
+  id: 45
+  etag: W/"9679310927907ccf3af609fc69fc8997"
+  name: Bib Fortuna
+  height: '180'
+  mass: unknown
+  hair_color: none
+  skin_color: pale
+  eye_color: pink
+  birth_year: unknown
+  gender: male
+  homeworld: https://swapi.co/api/planets/37/
+  films:
+  - https://swapi.co/api/films/3/
+  created: '2014-12-20T09:47:02.512000Z'
+  edited: '2014-12-20T21:17:50.407000Z'
+  url: https://swapi.co/api/people/45/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &89 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *89
+Ayla Secura:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &90 2018-08-14 23:39:11.000000000 Z
+    zone: *2
+    time: *90
+  id: 46
+  etag: W/"80124108c7c9c67c250f71cfa6544805"
+  name: Ayla Secura
+  height: '178'
+  mass: '55'
+  hair_color: none
+  skin_color: blue
+  eye_color: hazel
+  birth_year: 48BBY
+  gender: female
+  homeworld: https://swapi.co/api/planets/37/
+  films:
+  - https://swapi.co/api/films/5/
+  - https://swapi.co/api/films/4/
+  - https://swapi.co/api/films/6/
+  created: '2014-12-20T09:48:01.172000Z'
+  edited: '2014-12-20T21:17:50.409000Z'
+  url: https://swapi.co/api/people/46/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &91 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *91
+Ratts Tyerell:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &92 2018-08-14 23:39:11.000000000 Z
+    zone: *2
+    time: *92
+  id: 47
+  etag: W/"0f52c5c8f84b8650024af703fa1b1b92"
+  name: Ratts Tyerell
+  height: '79'
+  mass: '15'
+  hair_color: none
+  skin_color: grey, blue
+  eye_color: unknown
+  birth_year: unknown
+  gender: male
+  homeworld: https://swapi.co/api/planets/38/
+  films:
+  - https://swapi.co/api/films/4/
+  created: '2014-12-20T09:53:15.086000Z'
+  edited: '2016-06-30T12:52:19.604868Z'
+  url: https://swapi.co/api/people/47/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &93 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *93
+Dud Bolt:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &94 2018-08-14 23:39:12.000000000 Z
+    zone: *2
+    time: *94
+  id: 48
+  etag: W/"866505f9ac7213446cb12d8f02366c03"
+  name: Dud Bolt
+  height: '94'
+  mass: '45'
+  hair_color: none
+  skin_color: blue, grey
+  eye_color: yellow
+  birth_year: unknown
+  gender: male
+  homeworld: https://swapi.co/api/planets/39/
+  films:
+  - https://swapi.co/api/films/4/
+  created: '2014-12-20T09:57:31.858000Z'
+  edited: '2014-12-20T21:17:50.414000Z'
+  url: https://swapi.co/api/people/48/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &95 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *95
+Gasgano:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &96 2018-08-14 23:39:12.000000000 Z
+    zone: *2
+    time: *96
+  id: 49
+  etag: W/"98a0ade8218f584f470350827a163e75"
+  name: Gasgano
+  height: '122'
+  mass: unknown
+  hair_color: none
+  skin_color: white, blue
+  eye_color: black
+  birth_year: unknown
+  gender: male
+  homeworld: https://swapi.co/api/planets/40/
+  films:
+  - https://swapi.co/api/films/4/
+  created: '2014-12-20T10:02:12.223000Z'
+  edited: '2014-12-20T21:17:50.416000Z'
+  url: https://swapi.co/api/people/49/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &97 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *97
+Ben Quadinaros:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &98 2018-08-14 23:39:12.000000000 Z
+    zone: *2
+    time: *98
+  id: 50
+  etag: W/"2680483559e77707c6c0eb91449615db"
+  name: Ben Quadinaros
+  height: '163'
+  mass: '65'
+  hair_color: none
+  skin_color: grey, green, yellow
+  eye_color: orange
+  birth_year: unknown
+  gender: male
+  homeworld: https://swapi.co/api/planets/41/
+  films:
+  - https://swapi.co/api/films/4/
+  created: '2014-12-20T10:08:33.777000Z'
+  edited: '2014-12-20T21:17:50.417000Z'
+  url: https://swapi.co/api/people/50/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &99 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *99
+Mace Windu:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &100 2018-08-14 23:39:13.000000000 Z
+    zone: *2
+    time: *100
+  id: 51
+  etag: W/"1b6f4fd0120d9e080cd81653239ad20d"
+  name: Mace Windu
+  height: '188'
+  mass: '84'
+  hair_color: none
+  skin_color: dark
+  eye_color: brown
+  birth_year: 72BBY
+  gender: male
+  homeworld: https://swapi.co/api/planets/42/
+  films:
+  - https://swapi.co/api/films/5/
+  - https://swapi.co/api/films/4/
+  - https://swapi.co/api/films/6/
+  created: '2014-12-20T10:12:30.846000Z'
+  edited: '2014-12-20T21:17:50.420000Z'
+  url: https://swapi.co/api/people/51/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &101 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *101
+Ki-Adi-Mundi:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &102 2018-08-14 23:39:13.000000000 Z
+    zone: *2
+    time: *102
+  id: 52
+  etag: W/"1c03d4fdae66da7a9268e24cc8d11e90"
+  name: Ki-Adi-Mundi
+  height: '198'
+  mass: '82'
+  hair_color: white
+  skin_color: pale
+  eye_color: yellow
+  birth_year: 92BBY
+  gender: male
+  homeworld: https://swapi.co/api/planets/43/
+  films:
+  - https://swapi.co/api/films/5/
+  - https://swapi.co/api/films/4/
+  - https://swapi.co/api/films/6/
+  created: '2014-12-20T10:15:32.293000Z'
+  edited: '2014-12-20T21:17:50.422000Z'
+  url: https://swapi.co/api/people/52/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &103 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *103
+Kit Fisto:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &104 2018-08-14 23:39:14.000000000 Z
+    zone: *2
+    time: *104
+  id: 53
+  etag: W/"62b869f02da78ad6b5eab3e3094b969e"
+  name: Kit Fisto
+  height: '196'
+  mass: '87'
+  hair_color: none
+  skin_color: green
+  eye_color: black
+  birth_year: unknown
+  gender: male
+  homeworld: https://swapi.co/api/planets/44/
+  films:
+  - https://swapi.co/api/films/5/
+  - https://swapi.co/api/films/4/
+  - https://swapi.co/api/films/6/
+  created: '2014-12-20T10:18:57.202000Z'
+  edited: '2014-12-20T21:17:50.424000Z'
+  url: https://swapi.co/api/people/53/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &105 2018-08-14 23:36:27.000000000 Z
+    zone: *2
+    time: *105
+Eeth Koth:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &106 2018-08-14 23:39:14.000000000 Z
+    zone: *2
+    time: *106
+  id: 54
+  etag: W/"6a0afa84278a0158f3a882df3991516a"
+  name: Eeth Koth
+  height: '171'
+  mass: unknown
+  hair_color: black
+  skin_color: brown
+  eye_color: brown
+  birth_year: unknown
+  gender: male
+  homeworld: https://swapi.co/api/planets/45/
+  films:
+  - https://swapi.co/api/films/4/
+  - https://swapi.co/api/films/6/
+  created: '2014-12-20T10:26:47.902000Z'
+  edited: '2014-12-20T21:17:50.427000Z'
+  url: https://swapi.co/api/people/54/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &107 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *107
+Adi Gallia:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &108 2018-08-14 23:39:15.000000000 Z
+    zone: *2
+    time: *108
+  id: 55
+  etag: W/"a38ba50df8f8b87e95b4f592158221f8"
+  name: Adi Gallia
+  height: '184'
+  mass: '50'
+  hair_color: none
+  skin_color: dark
+  eye_color: blue
+  birth_year: unknown
+  gender: female
+  homeworld: https://swapi.co/api/planets/9/
+  films:
+  - https://swapi.co/api/films/4/
+  - https://swapi.co/api/films/6/
+  created: '2014-12-20T10:29:11.661000Z'
+  edited: '2014-12-20T21:17:50.432000Z'
+  url: https://swapi.co/api/people/55/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &109 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *109
+Saesee Tiin:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &110 2018-08-14 23:39:15.000000000 Z
+    zone: *2
+    time: *110
+  id: 56
+  etag: W/"976bc64557d7e968819bb02f06389965"
+  name: Saesee Tiin
+  height: '188'
+  mass: unknown
+  hair_color: none
+  skin_color: pale
+  eye_color: orange
+  birth_year: unknown
+  gender: male
+  homeworld: https://swapi.co/api/planets/47/
+  films:
+  - https://swapi.co/api/films/4/
+  - https://swapi.co/api/films/6/
+  created: '2014-12-20T10:32:11.669000Z'
+  edited: '2014-12-20T21:17:50.434000Z'
+  url: https://swapi.co/api/people/56/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &111 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *111
+Yarael Poof:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &112 2018-08-14 23:39:15.000000000 Z
+    zone: *2
+    time: *112
+  id: 57
+  etag: W/"ae726ce1490fbd0124a5479b00664e0e"
+  name: Yarael Poof
+  height: '264'
+  mass: unknown
+  hair_color: none
+  skin_color: white
+  eye_color: yellow
+  birth_year: unknown
+  gender: male
+  homeworld: https://swapi.co/api/planets/48/
+  films:
+  - https://swapi.co/api/films/4/
+  created: '2014-12-20T10:34:48.725000Z'
+  edited: '2014-12-20T21:17:50.437000Z'
+  url: https://swapi.co/api/people/57/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &113 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *113
+Plo Koon:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &114 2018-08-14 23:39:16.000000000 Z
+    zone: *2
+    time: *114
+  id: 58
+  etag: W/"0ccf09487cce667976635cd81ab5a487"
+  name: Plo Koon
+  height: '188'
+  mass: '80'
+  hair_color: none
+  skin_color: orange
+  eye_color: black
+  birth_year: 22BBY
+  gender: male
+  homeworld: https://swapi.co/api/planets/49/
+  films:
+  - https://swapi.co/api/films/5/
+  - https://swapi.co/api/films/4/
+  - https://swapi.co/api/films/6/
+  created: '2014-12-20T10:49:19.859000Z'
+  edited: '2014-12-20T21:17:50.439000Z'
+  url: https://swapi.co/api/people/58/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &115 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *115
+Mas Amedda:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &116 2018-08-14 23:39:16.000000000 Z
+    zone: *2
+    time: *116
+  id: 59
+  etag: W/"b3c63b631345076e5194f9f0aaeda595"
+  name: Mas Amedda
+  height: '196'
+  mass: unknown
+  hair_color: none
+  skin_color: blue
+  eye_color: blue
+  birth_year: unknown
+  gender: male
+  homeworld: https://swapi.co/api/planets/50/
+  films:
+  - https://swapi.co/api/films/5/
+  - https://swapi.co/api/films/4/
+  created: '2014-12-20T10:53:26.457000Z'
+  edited: '2014-12-20T21:17:50.442000Z'
+  url: https://swapi.co/api/people/59/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &117 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *117
+Gregar Typho:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &118 2018-08-14 23:39:17.000000000 Z
+    zone: *2
+    time: *118
+  id: 60
+  etag: W/"c56d50360c867957e3a9f05494b3195e"
+  name: Gregar Typho
+  height: '185'
+  mass: '85'
+  hair_color: black
+  skin_color: dark
+  eye_color: brown
+  birth_year: unknown
+  gender: male
+  homeworld: https://swapi.co/api/planets/8/
+  films:
+  - https://swapi.co/api/films/5/
+  created: '2014-12-20T11:10:10.381000Z'
+  edited: '2014-12-20T21:17:50.445000Z'
+  url: https://swapi.co/api/people/60/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &119 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *119
+Cordé:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &120 2018-08-14 23:39:17.000000000 Z
+    zone: *2
+    time: *120
+  id: 61
+  etag: W/"8178e5c3ccdc17faafe7e323d517985d"
+  name: Cordé
+  height: '157'
+  mass: unknown
+  hair_color: brown
+  skin_color: light
+  eye_color: brown
+  birth_year: unknown
+  gender: female
+  homeworld: https://swapi.co/api/planets/8/
+  films:
+  - https://swapi.co/api/films/5/
+  created: '2014-12-20T11:11:39.630000Z'
+  edited: '2014-12-20T21:17:50.449000Z'
+  url: https://swapi.co/api/people/61/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &121 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *121
+Cliegg Lars:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &122 2018-08-14 23:39:18.000000000 Z
+    zone: *2
+    time: *122
+  id: 62
+  etag: W/"ecac854ae87fecc534b65c41c2f359c3"
+  name: Cliegg Lars
+  height: '183'
+  mass: unknown
+  hair_color: brown
+  skin_color: fair
+  eye_color: blue
+  birth_year: 82BBY
+  gender: male
+  homeworld: https://swapi.co/api/planets/1/
+  films:
+  - https://swapi.co/api/films/5/
+  created: '2014-12-20T15:59:03.958000Z'
+  edited: '2014-12-20T21:17:50.451000Z'
+  url: https://swapi.co/api/people/62/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &123 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *123
+Poggle the Lesser:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &124 2018-08-14 23:39:18.000000000 Z
+    zone: *2
+    time: *124
+  id: 63
+  etag: W/"84867a829a6629cc69b6b0cecb7c2f2f"
+  name: Poggle the Lesser
+  height: '183'
+  mass: '80'
+  hair_color: none
+  skin_color: green
+  eye_color: yellow
+  birth_year: unknown
+  gender: male
+  homeworld: https://swapi.co/api/planets/11/
+  films:
+  - https://swapi.co/api/films/5/
+  - https://swapi.co/api/films/6/
+  created: '2014-12-20T16:40:43.977000Z'
+  edited: '2014-12-20T21:17:50.453000Z'
+  url: https://swapi.co/api/people/63/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &125 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *125
+Luminara Unduli:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &126 2018-08-14 23:39:18.000000000 Z
+    zone: *2
+    time: *126
+  id: 64
+  etag: W/"179f2fb3af032eed9f7038332336b322"
+  name: Luminara Unduli
+  height: '170'
+  mass: '56.2'
+  hair_color: black
+  skin_color: yellow
+  eye_color: blue
+  birth_year: 58BBY
+  gender: female
+  homeworld: https://swapi.co/api/planets/51/
+  films:
+  - https://swapi.co/api/films/5/
+  - https://swapi.co/api/films/6/
+  created: '2014-12-20T16:45:53.668000Z'
+  edited: '2014-12-20T21:17:50.455000Z'
+  url: https://swapi.co/api/people/64/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &127 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *127
+Barriss Offee:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &128 2018-08-14 23:39:19.000000000 Z
+    zone: *2
+    time: *128
+  id: 65
+  etag: W/"bafe1a03021dd258519c9a67a7edf87a"
+  name: Barriss Offee
+  height: '166'
+  mass: '50'
+  hair_color: black
+  skin_color: yellow
+  eye_color: blue
+  birth_year: 40BBY
+  gender: female
+  homeworld: https://swapi.co/api/planets/51/
+  films:
+  - https://swapi.co/api/films/5/
+  created: '2014-12-20T16:46:40.440000Z'
+  edited: '2014-12-20T21:17:50.457000Z'
+  url: https://swapi.co/api/people/65/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &129 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *129
+Dormé:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &130 2018-08-14 23:39:19.000000000 Z
+    zone: *2
+    time: *130
+  id: 66
+  etag: W/"35c2e4deabcafa0b551191bea70bb82a"
+  name: Dormé
+  height: '165'
+  mass: unknown
+  hair_color: brown
+  skin_color: light
+  eye_color: brown
+  birth_year: unknown
+  gender: female
+  homeworld: https://swapi.co/api/planets/8/
+  films:
+  - https://swapi.co/api/films/5/
+  created: '2014-12-20T16:49:14.640000Z'
+  edited: '2014-12-20T21:17:50.460000Z'
+  url: https://swapi.co/api/people/66/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &131 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *131
+Dooku:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &132 2018-08-14 23:39:20.000000000 Z
+    zone: *2
+    time: *132
+  id: 67
+  etag: W/"757e3a83f67a658adf02cc0bc4e3cb63"
+  name: Dooku
+  height: '193'
+  mass: '80'
+  hair_color: white
+  skin_color: fair
+  eye_color: brown
+  birth_year: 102BBY
+  gender: male
+  homeworld: https://swapi.co/api/planets/52/
+  films:
+  - https://swapi.co/api/films/5/
+  - https://swapi.co/api/films/6/
+  created: '2014-12-20T16:52:14.726000Z'
+  edited: '2014-12-20T21:17:50.462000Z'
+  url: https://swapi.co/api/people/67/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &133 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *133
+Bail Prestor Organa:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &134 2018-08-14 23:39:20.000000000 Z
+    zone: *2
+    time: *134
+  id: 68
+  etag: W/"8c98a7ad46c2ebcca9cbf5f3b111e7e2"
+  name: Bail Prestor Organa
+  height: '191'
+  mass: unknown
+  hair_color: black
+  skin_color: tan
+  eye_color: brown
+  birth_year: 67BBY
+  gender: male
+  homeworld: https://swapi.co/api/planets/2/
+  films:
+  - https://swapi.co/api/films/5/
+  - https://swapi.co/api/films/6/
+  created: '2014-12-20T16:53:08.575000Z'
+  edited: '2014-12-20T21:17:50.463000Z'
+  url: https://swapi.co/api/people/68/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &135 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *135
+Jango Fett:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &136 2018-08-14 23:39:20.000000000 Z
+    zone: *2
+    time: *136
+  id: 69
+  etag: W/"7892affd763343c4a5636d3691fe302a"
+  name: Jango Fett
+  height: '183'
+  mass: '79'
+  hair_color: black
+  skin_color: tan
+  eye_color: brown
+  birth_year: 66BBY
+  gender: male
+  homeworld: https://swapi.co/api/planets/53/
+  films:
+  - https://swapi.co/api/films/5/
+  created: '2014-12-20T16:54:41.620000Z'
+  edited: '2014-12-20T21:17:50.465000Z'
+  url: https://swapi.co/api/people/69/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &137 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *137
+Zam Wesell:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &138 2018-08-14 23:39:21.000000000 Z
+    zone: *2
+    time: *138
+  id: 70
+  etag: W/"bc59b2ea4616650ba94e81edd2a16825"
+  name: Zam Wesell
+  height: '168'
+  mass: '55'
+  hair_color: blonde
+  skin_color: fair, green, yellow
+  eye_color: yellow
+  birth_year: unknown
+  gender: female
+  homeworld: https://swapi.co/api/planets/54/
+  films:
+  - https://swapi.co/api/films/5/
+  created: '2014-12-20T16:57:44.471000Z'
+  edited: '2014-12-20T21:17:50.468000Z'
+  url: https://swapi.co/api/people/70/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &139 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *139
+Dexter Jettster:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &140 2018-08-14 23:39:21.000000000 Z
+    zone: *2
+    time: *140
+  id: 71
+  etag: W/"18a564c138c82367d771e97edaa493bf"
+  name: Dexter Jettster
+  height: '198'
+  mass: '102'
+  hair_color: none
+  skin_color: brown
+  eye_color: yellow
+  birth_year: unknown
+  gender: male
+  homeworld: https://swapi.co/api/planets/55/
+  films:
+  - https://swapi.co/api/films/5/
+  created: '2014-12-20T17:28:27.248000Z'
+  edited: '2014-12-20T21:17:50.470000Z'
+  url: https://swapi.co/api/people/71/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &141 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *141
+Lama Su:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &142 2018-08-14 23:39:22.000000000 Z
+    zone: *2
+    time: *142
+  id: 72
+  etag: W/"231728e05496462f74df359d1cb9bfea"
+  name: Lama Su
+  height: '229'
+  mass: '88'
+  hair_color: none
+  skin_color: grey
+  eye_color: black
+  birth_year: unknown
+  gender: male
+  homeworld: https://swapi.co/api/planets/10/
+  films:
+  - https://swapi.co/api/films/5/
+  created: '2014-12-20T17:30:50.416000Z'
+  edited: '2014-12-20T21:17:50.473000Z'
+  url: https://swapi.co/api/people/72/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &143 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *143
+Taun We:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &144 2018-08-14 23:39:22.000000000 Z
+    zone: *2
+    time: *144
+  id: 73
+  etag: W/"2bb6bb5abb789a1a510708b9c58e2f05"
+  name: Taun We
+  height: '213'
+  mass: unknown
+  hair_color: none
+  skin_color: grey
+  eye_color: black
+  birth_year: unknown
+  gender: female
+  homeworld: https://swapi.co/api/planets/10/
+  films:
+  - https://swapi.co/api/films/5/
+  created: '2014-12-20T17:31:21.195000Z'
+  edited: '2014-12-20T21:17:50.474000Z'
+  url: https://swapi.co/api/people/73/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &145 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *145
+Jocasta Nu:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &146 2018-08-14 23:39:23.000000000 Z
+    zone: *2
+    time: *146
+  id: 74
+  etag: W/"e0ad6e642a03259204950380f616313c"
+  name: Jocasta Nu
+  height: '167'
+  mass: unknown
+  hair_color: white
+  skin_color: fair
+  eye_color: blue
+  birth_year: unknown
+  gender: female
+  homeworld: https://swapi.co/api/planets/9/
+  films:
+  - https://swapi.co/api/films/5/
+  created: '2014-12-20T17:32:51.996000Z'
+  edited: '2014-12-20T21:17:50.476000Z'
+  url: https://swapi.co/api/people/74/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &147 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *147
+R4-P17:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &148 2018-08-14 23:39:23.000000000 Z
+    zone: *2
+    time: *148
+  id: 75
+  etag: W/"f8b3efb6b9cec89432cf69c0a43f9a16"
+  name: R4-P17
+  height: '96'
+  mass: unknown
+  hair_color: none
+  skin_color: silver, red
+  eye_color: red, blue
+  birth_year: unknown
+  gender: female
+  homeworld: https://swapi.co/api/planets/28/
+  films:
+  - https://swapi.co/api/films/5/
+  - https://swapi.co/api/films/6/
+  created: '2014-12-20T17:43:36.409000Z'
+  edited: '2014-12-20T21:17:50.478000Z'
+  url: https://swapi.co/api/people/75/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &149 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *149
+Wat Tambor:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &150 2018-08-14 23:39:24.000000000 Z
+    zone: *2
+    time: *150
+  id: 76
+  etag: W/"7c91c93acc26dc138f2f391ab5b8b050"
+  name: Wat Tambor
+  height: '193'
+  mass: '48'
+  hair_color: none
+  skin_color: green, grey
+  eye_color: unknown
+  birth_year: unknown
+  gender: male
+  homeworld: https://swapi.co/api/planets/56/
+  films:
+  - https://swapi.co/api/films/5/
+  created: '2014-12-20T17:53:52.607000Z'
+  edited: '2014-12-20T21:17:50.481000Z'
+  url: https://swapi.co/api/people/76/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &151 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *151
+San Hill:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &152 2018-08-14 23:39:24.000000000 Z
+    zone: *2
+    time: *152
+  id: 77
+  etag: W/"66762737e5903ee3c226eb9c846e3bbb"
+  name: San Hill
+  height: '191'
+  mass: unknown
+  hair_color: none
+  skin_color: grey
+  eye_color: gold
+  birth_year: unknown
+  gender: male
+  homeworld: https://swapi.co/api/planets/57/
+  films:
+  - https://swapi.co/api/films/5/
+  created: '2014-12-20T17:58:17.049000Z'
+  edited: '2014-12-20T21:17:50.484000Z'
+  url: https://swapi.co/api/people/77/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &153 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *153
+Shaak Ti:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &154 2018-08-14 23:39:24.000000000 Z
+    zone: *2
+    time: *154
+  id: 78
+  etag: W/"8a946a7df962b165e1f97f19eaa69a39"
+  name: Shaak Ti
+  height: '178'
+  mass: '57'
+  hair_color: none
+  skin_color: red, blue, white
+  eye_color: black
+  birth_year: unknown
+  gender: female
+  homeworld: https://swapi.co/api/planets/58/
+  films:
+  - https://swapi.co/api/films/5/
+  - https://swapi.co/api/films/6/
+  created: '2014-12-20T18:44:01.103000Z'
+  edited: '2014-12-20T21:17:50.486000Z'
+  url: https://swapi.co/api/people/78/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &155 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *155
+Grievous:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &156 2018-08-14 23:39:25.000000000 Z
+    zone: *2
+    time: *156
+  id: 79
+  etag: W/"c35304dcfde52761a726b6be731fa548"
+  name: Grievous
+  height: '216'
+  mass: '159'
+  hair_color: none
+  skin_color: brown, white
+  eye_color: green, yellow
+  birth_year: unknown
+  gender: male
+  homeworld: https://swapi.co/api/planets/59/
+  films:
+  - https://swapi.co/api/films/6/
+  created: '2014-12-20T19:43:53.348000Z'
+  edited: '2014-12-20T21:17:50.488000Z'
+  url: https://swapi.co/api/people/79/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &157 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *157
+Tarfful:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &158 2018-08-14 23:39:25.000000000 Z
+    zone: *2
+    time: *158
+  id: 80
+  etag: W/"f1fd6bef10f632eb28357c162a5de1cd"
+  name: Tarfful
+  height: '234'
+  mass: '136'
+  hair_color: brown
+  skin_color: brown
+  eye_color: blue
+  birth_year: unknown
+  gender: male
+  homeworld: https://swapi.co/api/planets/14/
+  films:
+  - https://swapi.co/api/films/6/
+  created: '2014-12-20T19:46:34.209000Z'
+  edited: '2014-12-20T21:17:50.491000Z'
+  url: https://swapi.co/api/people/80/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &159 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *159
+Raymus Antilles:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &160 2018-08-14 23:39:26.000000000 Z
+    zone: *2
+    time: *160
+  id: 81
+  etag: W/"3d28eda38dd4bbcc028526096a663bcc"
+  name: Raymus Antilles
+  height: '188'
+  mass: '79'
+  hair_color: brown
+  skin_color: light
+  eye_color: brown
+  birth_year: unknown
+  gender: male
+  homeworld: https://swapi.co/api/planets/2/
+  films:
+  - https://swapi.co/api/films/6/
+  - https://swapi.co/api/films/1/
+  created: '2014-12-20T19:49:35.583000Z'
+  edited: '2014-12-20T21:17:50.493000Z'
+  url: https://swapi.co/api/people/81/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &161 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *161
+Sly Moore:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &162 2018-08-14 23:39:26.000000000 Z
+    zone: *2
+    time: *162
+  id: 82
+  etag: W/"c1bf3d69ac26afa100ae6665efd1d951"
+  name: Sly Moore
+  height: '178'
+  mass: '48'
+  hair_color: none
+  skin_color: pale
+  eye_color: white
+  birth_year: unknown
+  gender: female
+  homeworld: https://swapi.co/api/planets/60/
+  films:
+  - https://swapi.co/api/films/5/
+  - https://swapi.co/api/films/6/
+  created: '2014-12-20T20:18:37.619000Z'
+  edited: '2014-12-20T21:17:50.496000Z'
+  url: https://swapi.co/api/people/82/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &163 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *163
+Tion Medon:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &164 2018-08-14 23:39:26.000000000 Z
+    zone: *2
+    time: *164
+  id: 83
+  etag: W/"46271a4e58e66902ad8605fd39341e3d"
+  name: Tion Medon
+  height: '206'
+  mass: '80'
+  hair_color: none
+  skin_color: grey
+  eye_color: black
+  birth_year: unknown
+  gender: male
+  homeworld: https://swapi.co/api/planets/12/
+  films:
+  - https://swapi.co/api/films/6/
+  created: '2014-12-20T20:35:04.260000Z'
+  edited: '2014-12-20T21:17:50.498000Z'
+  url: https://swapi.co/api/people/83/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &165 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *165
+Finn:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &166 2018-08-14 23:39:27.000000000 Z
+    zone: *2
+    time: *166
+  id: 84
+  etag: W/"3bad35952d3670854859d3ec0037e7f9"
+  name: Finn
+  height: unknown
+  mass: unknown
+  hair_color: black
+  skin_color: dark
+  eye_color: dark
+  birth_year: unknown
+  gender: male
+  homeworld: https://swapi.co/api/planets/28/
+  films:
+  - https://swapi.co/api/films/7/
+  created: '2015-04-17T06:52:40.793621Z'
+  edited: '2015-04-17T06:52:40.793674Z'
+  url: https://swapi.co/api/people/84/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &167 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *167
+Rey:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &168 2018-08-14 23:39:27.000000000 Z
+    zone: *2
+    time: *168
+  id: 85
+  etag: W/"2cb0165c462332cf6c8717153d61467b"
+  name: Rey
+  height: unknown
+  mass: unknown
+  hair_color: brown
+  skin_color: light
+  eye_color: hazel
+  birth_year: unknown
+  gender: female
+  homeworld: https://swapi.co/api/planets/28/
+  films:
+  - https://swapi.co/api/films/7/
+  created: '2015-04-17T06:54:01.495077Z'
+  edited: '2015-04-17T06:54:01.495128Z'
+  url: https://swapi.co/api/people/85/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &169 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *169
+Poe Dameron:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &170 2018-08-14 23:39:28.000000000 Z
+    zone: *2
+    time: *170
+  id: 86
+  etag: W/"bb61ff04d96907d6eede8421dd84f0b4"
+  name: Poe Dameron
+  height: unknown
+  mass: unknown
+  hair_color: brown
+  skin_color: light
+  eye_color: brown
+  birth_year: unknown
+  gender: male
+  homeworld: https://swapi.co/api/planets/28/
+  films:
+  - https://swapi.co/api/films/7/
+  created: '2015-04-17T06:55:21.622786Z'
+  edited: '2015-04-17T06:55:21.622835Z'
+  url: https://swapi.co/api/people/86/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &171 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *171
+BB8:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &172 2018-08-14 23:39:28.000000000 Z
+    zone: *2
+    time: *172
+  id: 87
+  etag: W/"9733e46b05dafe0095716ba3af9f971d"
+  name: BB8
+  height: unknown
+  mass: unknown
+  hair_color: none
+  skin_color: none
+  eye_color: black
+  birth_year: unknown
+  gender: none
+  homeworld: https://swapi.co/api/planets/28/
+  films:
+  - https://swapi.co/api/films/7/
+  created: '2015-04-17T06:57:38.061346Z'
+  edited: '2015-04-17T06:57:38.061453Z'
+  url: https://swapi.co/api/people/87/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &173 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *173
+Captain Phasma:
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &174 2018-08-14 23:39:28.000000000 Z
+    zone: *2
+    time: *174
+  id: 88
+  etag: W/"f9a15b46f67a08b6d22026a795173175"
+  name: Captain Phasma
+  height: unknown
+  mass: unknown
+  hair_color: unknown
+  skin_color: unknown
+  eye_color: unknown
+  birth_year: unknown
+  gender: female
+  homeworld: https://swapi.co/api/planets/28/
+  films:
+  - https://swapi.co/api/films/7/
+  created: '2015-10-13T10:35:39.229823Z'
+  edited: '2015-10-13T10:35:39.229894Z'
+  url: https://swapi.co/api/people/88/
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &175 2018-08-14 23:36:26.000000000 Z
+    zone: *2
+    time: *175
